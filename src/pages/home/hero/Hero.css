@@ -1,0 +1,19 @@
+.hero {
+  width: 100%;
+  position: relative;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  /* color: #fff; */
+  background: rgba(220, 0, 0, 0.5);
+}
+.hero-title {
+  /* margin-bottom: 20px; */
+}
