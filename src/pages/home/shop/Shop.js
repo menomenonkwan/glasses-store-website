@@ -5,10 +5,10 @@ export default function Shop() {
     <section id="shop" className="bg-light py-5">
       <h2 className="text-center display-5 pt-5">Find What Fits You</h2>
       <div className="container-md my-5">
-        <div className="row gx-5 gy-4 align-items-center justify-content-center">
+        <div className="row gx-3 gy-4 align-items-center justify-content-center">
 
           {shopOptions.map(item => (
-            <div className="col-8 col-lg-4" key={item.id}>
+            <div className="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3" key={item.id}>
               <div className="card border-0 bg-light" key={item.id}>
                 <div className="card-body ">
                   <img className='img-fluid shadow-sm' src={item.image} alt='' />
