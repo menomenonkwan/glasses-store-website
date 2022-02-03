@@ -1,0 +1,25 @@
+.carousel-item {
+  /* background: red; */
+  /* padding: 0 15%; */
+  /* margin-left: 5rem; */
+  /* text-align: left; */
+}
+.carousel-inner {
+  /* background: yellow; */
+  /* text-align: left; */
+  /* width: 100%;
+  margin: 0 auto; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+@media (max-width: 700px) {
+  .carousel-item {
+    /* background: red;
+    width: 100%; */
+  }
+  .carousel-inner {
+    /* width: 100%; */
+  }
+}
