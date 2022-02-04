@@ -47,7 +47,7 @@
 
 .hovereffect:hover .overlay {
   opacity: 1;
-  filter: alpha(opacity=100);
+  /* filter: alpha(opacity=100); */
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -83,7 +83,7 @@
   border: 1px solid #fff;
   background-color: transparent;
   opacity: 0;
-  filter: alpha(opacity=0);
+  /* filter: alpha(opacity=0); */
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   margin: 50px 0 0;
@@ -102,13 +102,13 @@
 
 .hovereffect:hover .overlay {
   opacity: 1;
-  filter: alpha(opacity=100);
+  /* filter: alpha(opacity=100); */
 }
 
 .hovereffect:hover h2,
 .hovereffect:hover a.info {
   opacity: 1;
-  filter: alpha(opacity=100);
+  /* filter: alpha(opacity=100); */
   -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);

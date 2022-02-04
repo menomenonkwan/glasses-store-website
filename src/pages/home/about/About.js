@@ -4,7 +4,7 @@ import './About.css';
 const AboutAccordion = () => {
   return (
     <Accordion flush>
-      <Accordion.Item defaultActiveKey="0" eventKey="0">
+      <Accordion.Item defaultactivekey="0" eventKey="0">
         <Accordion.Header>Find Your Perfect Pair</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -71,10 +71,10 @@ export default function About() {
           </div>
 
           <div className="col-6 col-lg-3 d-none d-lg-block">
-            <div class="box-scene mx-auto">
-              <div class="box">
-                <div class="box__face box__face--front"><img className="img-fluid " src="https://source.unsplash.com/LHaqQkG_mgQ/" alt="" /></div>
-                <div class="box__face box__face--left"><img className="img-fluid h-100" src="https://source.unsplash.com/KP4bxnxAilU/" alt="" /></div>
+            <div className="box-scene mx-auto">
+              <div className="box">
+                <div className="box__face box__face--front"><img className="img-fluid h-100" src="https://source.unsplash.com/LHaqQkG_mgQ/" alt="" /></div>
+                <div className="box__face box__face--left"><img className="img-fluid h-100" src="https://source.unsplash.com/KP4bxnxAilU/" alt="" /></div>
               </div>
             </div>
           </div>
