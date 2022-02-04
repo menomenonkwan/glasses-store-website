@@ -2,14 +2,14 @@
 export default function Contact() {
   return (
     <section id="contact" className="bg-light py-3">
-      <div className="container-lg mt-5">
+      <div className="container-lg pt-5">
         <div className="text-center">
           <h2>Get In Touch</h2>
           <p className="lead">Have a question? Let us know!</p>
         </div>
 
         <div className="row justify-content-center my-5">
-          <div className="col-lg-6">
+          <div className="col-10 col-lg-6">
             <form onSubmit={(e) => e.preventDefault()}>
               {/* email */}
               <div className="mb-3">
